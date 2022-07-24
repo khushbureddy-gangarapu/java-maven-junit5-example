@@ -22,10 +22,10 @@ pipeline {
                 withMaven(maven : 'maven_3_6_0') {
                    sh 'mvn deploy'
              }
-		      }
-       }
-    }
- }  
+	 }
+     }
+  }
+}  
    
   
 
